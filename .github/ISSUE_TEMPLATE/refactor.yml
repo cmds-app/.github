@@ -1,0 +1,20 @@
+# .github/ISSUE_TEMPLATE/refactor.yml
+name: "♻️ Refactor"
+description: "Suggest a code refactor"
+title: "[Refactor] "
+labels: ["refactor"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Refactor
+      description: A clear description of the refactor
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why this refactor is needed
+    validations:
+      required: true

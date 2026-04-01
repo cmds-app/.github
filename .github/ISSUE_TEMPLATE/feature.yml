@@ -1,0 +1,39 @@
+# .github/ISSUE_TEMPLATE/feature.yml
+name: "✨ Feature"
+description: "Suggest a new feature or a change to an existing one"
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: Is this a new feature or a change to an existing one?
+      options:
+        - New feature
+        - Change to existing feature
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature
+      description: A clear description of the feature
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why this feature would be useful
+      placeholder: |
+        I want this because...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: A clear explanation of how the feature should work
+    validations:
+      required: false
