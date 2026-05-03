@@ -23,14 +23,16 @@ If you're a CMDS user or are evaluating the platform for your organization, visi
 
 ## Documentation
 
-Business documentation is published at [keyeracmds.com](https://www.keyeracmds.com).
+- Business documentation is published at [keyeracmds.com](https://www.keyeracmds.com)
 
-Technical documentation is published at [docs.cmds.app](https://docs.cmds.app).
+- Technical documentation is published at [docs.cmds.app](https://docs.cmds.app)
 
 ## Contributing
 
-Community health files — code of conduct, contribution guide, security policy, and support — live in the [cmds-app/.github](https://github.com/cmds-app/.github) repository and apply to every CMDS project.
+Community health files (code of conduct, contribution guide, security policy, and support) live in the [cmds-app/.github](https://github.com/cmds-app/.github) repository and apply to every CMDS project.
 
 ## Contact
 
-Calgary, Alberta · +1 (403) 205-8300 · [admin_cmds@keyera.com](mailto:admin_cmds@keyera.com)
+Phone +1 (403) 205-8300
+Email [admin_cmds@keyera.com](mailto:admin_cmds@keyera.com)
+Calgary, Alberta
