@@ -1,8 +1,8 @@
-# .github/ISSUE_TEMPLATE/repair.yml
-name: "🛠️ Repair"
+# .github/ISSUE_TEMPLATE/fix.yml
+name: "🛠️ Fix"
 description: "Solve a problem in the project"
-title: "[Repair] "
-labels: ["repair"]
+title: "[Fix] "
+labels: ["fix"]
 body:
   - type: textarea
     id: description
