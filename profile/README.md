@@ -28,7 +28,7 @@ If you're a CMDS user or are evaluating the platform for your organization, plea
 
 ## Contributing
 
-Community health files (code of conduct, contribution guide, security policy, and support) live in the [cmds-app/.github](https://github.com/cmds-app/.github) repository and apply to every CMDS project.
+- Community health files (code of conduct, contribution guide, security policy, and support) live in the [cmds-app/.github](https://github.com/cmds-app/.github) repository and apply to every CMDS project.
 
 ## Contact
 
