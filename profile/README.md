@@ -24,7 +24,6 @@ If you're a CMDS user or are evaluating the platform for your organization, plea
 ## Documentation
 
 - Business/corporate documentation is published at [keyeracmds.com](https://www.keyeracmds.com)
-
 - Technical documentation for developers and integrators is published at [docs.cmds.app](https://docs.cmds.app)
 
 ## Contributing
@@ -33,6 +32,6 @@ Community health files (code of conduct, contribution guide, security policy, an
 
 ## Contact
 
-Phone +1 (403) 205-8300
-Email [admin_cmds@keyera.com](mailto:admin_cmds@keyera.com)
-Calgary, Alberta
+- Phone +1 (403) 205-8300
+- Email [admin_cmds@keyera.com](mailto:admin_cmds@keyera.com)
+- Calgary, Alberta
