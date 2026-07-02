@@ -1,23 +1,23 @@
-# .github/ISSUE_TEMPLATE/refactor.yml
-name: "♻️ Refactor"
-description: "Propose a code refactor with no user-visible behaviour change"
-title: "[refactor] "
-labels: ["refactor"]
+# .github/ISSUE_TEMPLATE/docs.yml
+name: "📝 Docs"
+description: "Add or correct documentation"
+title: "[docs] "
+labels: ["docs"]
 body:
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: What should be refactored?
+      description: What should the documentation say, or what is wrong with what it says today?
     validations:
       required: true
   - type: textarea
-    id: rationale
+    id: location
     attributes:
-      label: Rationale
-      description: Why is this refactor worth doing now?
+      label: Location
+      description: Optional. Which pages, files, or sections?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: related
     attributes:

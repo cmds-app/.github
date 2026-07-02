@@ -1,23 +1,27 @@
-# .github/ISSUE_TEMPLATE/refactor.yml
-name: "♻️ Refactor"
-description: "Propose a code refactor with no user-visible behaviour change"
-title: "[refactor] "
-labels: ["refactor"]
+# .github/ISSUE_TEMPLATE/chore.yml
+name: "🧹 Chore"
+description: "Maintenance, setup, provisioning, or housekeeping with no production behaviour change"
+title: "[chore] "
+labels: ["chore"]
 body:
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: What should be refactored?
+      description: What needs to be done?
     validations:
       required: true
   - type: textarea
-    id: rationale
+    id: checklist
     attributes:
-      label: Rationale
-      description: Why is this refactor worth doing now?
+      label: Checklist
+      description: Steps or items to complete.
+      placeholder: |
+        - [ ] Step 1
+        - [ ] Step 2
+        - [ ] Step 3
     validations:
-      required: true
+      required: false
   - type: textarea
     id: related
     attributes:

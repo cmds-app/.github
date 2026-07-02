@@ -1,31 +1,76 @@
 # .github/ISSUE_TEMPLATE/fix.yml
-name: "🛠️ Fix"
-description: "Solve a problem in the project"
-title: "[Fix] "
+name: "🐛 Fix"
+description: "Report a defect in the project"
+title: "[fix] "
 labels: ["fix"]
 body:
   - type: textarea
-    id: description
+    id: environment
     attributes:
-      label: Problem
-      description: A clear description of the problem
+      label: Environment
+      description: Where does this occur?
+      placeholder: |
+        - Branch or build:
+        - Environment (dev / staging / production):
+        - Tenant or organisation (if applicable):
+        - Browser and OS (if UI):
     validations:
       required: true
   - type: textarea
-    id: steps
+    id: actual
     attributes:
-      label: Steps to reproduce
-      description: Steps to reproduce the problem
+      label: Actual behaviour
+      description: What happens? Include the steps you took so someone can reproduce it.
       placeholder: |
-        1. Go to '...'
-        2. Click '...'
-        3. See error
+        Steps I took:
+          1. Go to '...'
+          2. Click '...'
+        What happened:
+          ...
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Solution
-      description: A clear explanation of the expected behaviour
+      label: Expected behaviour
+      description: What should have happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Optional. Who is affected? Is there a workaround? Is data at risk?
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or screenshots
+      description: Optional. Attach or paste anything that helps.
+    validations:
+      required: false
+  - type: textarea
+    id: related
+    attributes:
+      label: Related issues or pull requests
+      description: Optional. Link related work.
+      placeholder: |
+        Closes #123
+        Related to #456
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Optional hint. The team may reprioritise.
+      options:
+        - Not set
+        - Low
+        - Normal
+        - High
+        - Blocker
+      default: 0
     validations:
       required: false
