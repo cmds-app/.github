@@ -4,18 +4,21 @@ Thanks for your interest in contributing. This guide applies to every repository
 
 ## Ways to contribute
 
-- **Report a problem** — open a [Fix](../../issues/new?template=fix.yml) issue.
-- **Propose a feature** — open a [Feature](../../issues/new?template=feature.yml) issue.
-- **Suggest a refactor** — open a [Refactor](../../issues/new?template=refactor.yml) issue.
-- **Track infrastructure work** — open a [Setup](../../issues/new?template=setup.yml) issue.
-- **Submit code** — open a pull request following the steps below.
+- **Report a problem.** Open a [Fix](../../issues/new?template=fix.yml) issue.
+- **Propose a feature.** Open a [Feature](../../issues/new?template=feat.yml) issue.
+- **Suggest a refactor.** Open a [Refactor](../../issues/new?template=refactor.yml) issue.
+- **Report a slow path.** Open a [Performance](../../issues/new?template=perf.yml) issue.
+- **Fix or add documentation.** Open a [Docs](../../issues/new?template=docs.yml) issue.
+- **Add or improve tests.** Open a [Test](../../issues/new?template=test.yml) issue.
+- **Track maintenance or infrastructure work.** Open a [Chore](../../issues/new?template=chore.yml) issue.
+- **Submit code.** Open a pull request following the steps below.
 
 Before opening a new issue, search existing issues to avoid duplicates. If a related issue exists, comment there instead.
 
 ## Development workflow
 
 1. **Fork and clone** the repository you want to change.
-2. **Create a branch** from `main`. Use a short, descriptive name (e.g. `fix/login-redirect`, `feature/export-csv`).
+2. **Create a branch** from `main`. Use a short, descriptive name (e.g. `fix/login-redirect`, `feat/export-csv`).
 3. **Make your changes.** Keep commits focused and write clear commit messages.
 4. **Run the project's tests and linters** locally. Repo-specific commands live in the repo's `README.md`.
 5. **Open a pull request** against `main` and fill out the [pull request template](./pull_request_template.md).
@@ -25,21 +28,29 @@ Before opening a new issue, search existing issues to avoid duplicates. If a rel
 | Prefix      | Use for                                  |
 | :---------- | :--------------------------------------- |
 | `fix/`      | Bug fixes                                |
-| `feature/`  | New features or feature changes          |
+| `feat/`     | New features or feature changes          |
 | `refactor/` | Internal restructuring, no behavior change |
-| `setup/`    | Infrastructure or tooling changes        |
+| `perf/`     | Performance improvements                 |
 | `docs/`     | Documentation-only updates               |
+| `test/`     | Test additions or improvements           |
+| `chore/`    | Maintenance, tooling, or infrastructure  |
 
 ### Commit messages
 
-- Write commits in the imperative mood ("Add export button", not "Added export button").
-- Keep the subject line under 72 characters.
-- Reference related issues in the body (e.g. `Closes #123`).
+Commits follow [Conventional Commits](https://www.conventionalcommits.org/).
+
+- **Format.** `<type>(<scope>): <description>` with an optional body and footer. The scope is optional; the parentheses go away with it.
+- **Type.** Lowercase, from: `fix`, `feat`, `refactor`, `perf`, `docs`, `test`, `chore`, `build`, `ci`, `style`, `revert`. The first seven match the branch-prefix and issue-template taxonomy above; the last four (`build`, `ci`, `style`, `revert`) are commit-only types with no matching branch prefix.
+- **Description.** Lowercase, imperative mood ("add export button", not "added export button"), no trailing period. Keep it under 72 characters.
+- **Body.** Optional. Wrap at 72 characters. Explain *why*, not *what*. Skip when the subject is self-explanatory.
+- **Breaking change.** Append `!` after the type or scope (`feat!:` or `feat(api)!:`) and add a `BREAKING CHANGE:` footer describing the migration.
+- **Issue references.** Add `Closes #123` (or `Refs #123`) to the footer.
+- **Atomic commits.** One logical change per commit. If you can't pick a single type, split it.
 
 ## Pull requests
 
 - Link the PR to the issue it resolves.
-- Keep PRs as small as practical — split large changes into reviewable chunks.
+- Keep PRs as small as practical - split large changes into reviewable chunks.
 - Ensure CI passes before requesting review.
 - Update documentation and tests alongside code changes.
 - Mark the PR as a draft if it is not ready for review.

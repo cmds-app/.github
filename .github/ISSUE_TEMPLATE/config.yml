@@ -2,5 +2,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Question or discussion
-    url: https://github.com/cmds-app/docs/discussions
+    url: https://github.com/orgs/cmds-app/discussions
     about: For open-ended questions not tied to a specific task

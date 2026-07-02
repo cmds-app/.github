@@ -1,6 +1,6 @@
 # .github/ISSUE_TEMPLATE/chore.yml
 name: "🧹 Chore"
-description: "Maintenance, setup, provisioning, or housekeeping with no production behaviour change"
+description: "Maintenance, setup, provisioning, or housekeeping with no production behavior change"
 title: "[chore] "
 labels: ["chore"]
 body:
@@ -36,7 +36,7 @@ body:
     id: priority
     attributes:
       label: Priority
-      description: Optional hint. The team may reprioritise.
+      description: Optional hint. The team may reprioritize.
       options:
         - Not set
         - Low

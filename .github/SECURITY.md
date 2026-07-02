@@ -8,10 +8,10 @@ The CMDS organization takes the security of its software seriously. This policy 
 
 Report vulnerabilities through one of the following private channels:
 
-- **GitHub private vulnerability reporting** — preferred. Open a report from the affected repository's **Security** tab → **Report a vulnerability**.
-- **Email** — send details to [security@cmds-app.com](mailto:security@cmds-app.com).
+- **GitHub private vulnerability reporting** - preferred. Open a report from the affected repository's **Security** tab, then click **Report a vulnerability**.
+- **Email** - send details to [admin@keyeracmds.com](mailto:admin@keyeracmds.com).
 
-When reporting, please include:
+When reporting, include:
 
 - The affected repository, version, or commit.
 - A description of the vulnerability and its impact.
@@ -19,13 +19,11 @@ When reporting, please include:
 - Any suggested mitigation or fix.
 - Whether you intend to disclose publicly, and on what timeline.
 
-You may encrypt sensitive reports; request our PGP key by email if needed.
-
 ## What to expect
 
 | Stage              | Target response time          |
 | :----------------- | :---------------------------- |
-| Initial acknowledgement | Within 3 business days   |
+| Initial acknowledgment | Within 3 business days   |
 | Triage and severity assessment | Within 7 business days |
 | Status updates     | At least every 14 days while the report is open |
 | Fix and disclosure | Coordinated with the reporter, typically within 90 days of triage |

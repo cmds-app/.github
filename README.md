@@ -17,6 +17,6 @@ Full behavior is documented in [creating a default community health file](https:
 | `SECURITY.md`               | How to report security vulnerabilities |
 | `SUPPORT.md`                | Where to get help |
 | `ISSUE_TEMPLATE/`           | Default issue templates |
-| `PULL_REQUEST_TEMPLATE.md`  | Default pull request template |
+| `pull_request_template.md`  | Default pull request template |
 | `workflows/`                | Reusable GitHub Actions workflows available to any repo in the org |
 | `profile/README.md`         | Content rendered on the organization's public profile page at `github.com/cmds-app` |

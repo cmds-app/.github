@@ -32,7 +32,7 @@ body:
     id: priority
     attributes:
       label: Priority
-      description: Optional hint. The team may reprioritise.
+      description: Optional hint. The team may reprioritize.
       options:
         - Not set
         - Low

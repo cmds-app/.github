@@ -23,7 +23,7 @@ This document sets expectations for behavior across all repositories in this org
 
 ## Scope
 
-This Code of Conduct applies in all project spaces (repositories, issues, pull requests, discussions) and to anyone representing the project in public — for example, using a project email address or speaking on the project's behalf.
+This Code of Conduct applies in all project spaces (repositories, issues, pull requests, discussions) and to anyone representing the project in public - for example, using a project email address or speaking on the project's behalf.
 
 ## Enforcement
 

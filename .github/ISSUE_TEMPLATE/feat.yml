@@ -18,7 +18,7 @@ body:
     id: solution
     attributes:
       label: Solution
-      description: What would you like to see happen? Describe the desired behaviour.
+      description: What would you like to see happen? Describe the desired behavior.
       placeholder: |
         I'd like to be able to...
     validations:
@@ -47,7 +47,7 @@ body:
     id: priority
     attributes:
       label: Priority
-      description: Optional hint. The team may reprioritise.
+      description: Optional hint. The team may reprioritize.
       options:
         - Not set
         - Low
@@ -60,4 +60,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        Feel free to add more sections (screenshots, examples, alternatives considered, out of scope) after the issue is opened.
+        Add more sections (screenshots, examples, alternatives considered, out of scope) after the issue is opened.

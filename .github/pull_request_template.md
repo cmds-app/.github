@@ -2,25 +2,30 @@
 
 <!-- Provide a brief summary of the changes and the motivation behind them. -->
 
-## Type of Change
+## Type of change
 
-<!-- Check the relevant option(s). -->
+<!-- Check one. -->
 
-- [ ] Bug fix (non-breaking change that fixes an issue)
-- [ ] New feature (non-breaking change that adds functionality)
-- [ ] Refactor (code change that neither fixes a bug nor adds a feature)
-- [ ] Breaking change (fix or feature that would cause existing functionality to change)
-- [ ] Documentation update
+- [ ] Fix - bug fix
+- [ ] Feature - new feature or change to an existing one
+- [ ] Refactor - internal restructuring, no behavior change
+- [ ] Performance - speed, memory, or throughput improvement
+- [ ] Documentation - docs only
+- [ ] Test - test additions or improvements
+- [ ] Chore - maintenance, tooling, or infrastructure
 
-## How Has This Been Tested?
+<!-- Check if applicable. -->
+
+- [ ] Breaking change - existing behavior changes. Document the migration in the description above.
+
+## How was this tested?
 
 <!-- Describe the tests you ran to verify your changes. -->
 
 ## Checklist
 
-- [ ] My code follows the project's coding standards
+- [ ] My code follows the [contribution guidelines](./CONTRIBUTING.md)
 - [ ] I have performed a self-review of my code
 - [ ] I have added tests that prove my fix or feature works
 - [ ] New and existing tests pass with my changes
 - [ ] I have updated documentation if needed
-- [ ] This PR does not introduce breaking changes (or they are documented above)

@@ -1,6 +1,6 @@
 # .github/ISSUE_TEMPLATE/fix.yml
 name: "🐛 Fix"
-description: "Report a defect in the project"
+description: "Report a bug in the project"
 title: "[fix] "
 labels: ["fix"]
 body:
@@ -12,14 +12,14 @@ body:
       placeholder: |
         - Branch or build:
         - Environment (dev / staging / production):
-        - Tenant or organisation (if applicable):
+        - Tenant or organization (if applicable):
         - Browser and OS (if UI):
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: Actual behaviour
+      label: Actual behavior
       description: What happens? Include the steps you took so someone can reproduce it.
       placeholder: |
         Steps I took:
@@ -32,7 +32,7 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Expected behaviour
+      label: Expected behavior
       description: What should have happened instead?
     validations:
       required: true
@@ -64,7 +64,7 @@ body:
     id: priority
     attributes:
       label: Priority
-      description: Optional hint. The team may reprioritise.
+      description: Optional hint. The team may reprioritize.
       options:
         - Not set
         - Low
